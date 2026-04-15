@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VPS - ClashHub</title>
+<style>
+:root{--bg:#0f172a;--c:#1e293b;--a:#38bdf8;--t:#e2e8f0;--m:#94a3b8}
+body{font-family:system-ui,sans-serif;background:var(--bg);color:var(--t);padding:2rem}
+.l{max-width:900px;margin:0 auto}h1{color:var(--a);margin-bottom:.5rem}
+.s{color:var(--m);margin-bottom:2rem}.n{display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:2rem}
+a{color:var(--a);text-decoration:none;padding:.5rem 1rem;background:var(--c);border-radius:8px;font-size:.85rem}a:hover{background:#334155}
+.g{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:1rem;margin:2rem 0}
+.card{background:var(--c);border-radius:12px;padding:1.5rem;border:1px solid #334155}
+.card h3{color:var(--a);margin-bottom:.5rem}.card p{color:var(--m);font-size:.85rem;line-height:1.5}
+pre{background:var(--c);border-radius:12px;padding:1.5rem;overflow-x:auto;border:1px solid #334155}
+code{color:#a5f3fc;font-family:monospace}
+.ft{text-align:center;color:var(--m);font-size:.8rem;margin-top:3rem;padding-top:1rem;border-top:1px solid #1e293b}
+</style></head><body>
+<div class=l><h1>VPS Guide</h1><p class=s>ClashHub - 2026-04-15</p>
+<div class=n><a href="https://clashhub.net">ClashHub</a><a href="https://nav.clashvip.net">nav</a><a href="https://vpsvip.net">VPS</a><a href="https://bbs.clashhub.net">BBS</a></div>
+<div class=g>
+<div class=card><h3>Bench</h3><p>CPU/IO/bandwidth test</p><code>bench.sh</code></div>
+<div class=card><h3>BBR</h3><p>BBR acceleration</p><code>bbr.sh</code></div>
+<div class=card><h3>mihomo</h3><p>Clash Meta installer</p><code>clash.sh</code></div>
+<div class=card><h3>Docker</h3><p>Docker + Compose</p><code>docker.sh</code></div>
+</div>
+<pre><code>wget -qO- https://raw.githubusercontent.com/CG-spring/vps-guide-8q3khk/main/bench.sh | bash
+wget -qO- https://raw.githubusercontent.com/CG-spring/vps-guide-8q3khk/main/bbr.sh | bash</code></pre>
+<p class=ft>ClashHub</p></div></body></html>
